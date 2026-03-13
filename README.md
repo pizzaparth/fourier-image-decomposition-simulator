@@ -26,6 +26,30 @@ conda create -n fourier-env python=3.11
 ```bash
 conda activate fourier-env
 ```
-
-
+### 5. Install packages inside the environment
+```bash
+pip install numpy matplotlib opencv-python scipy
+```
+#
+#
+## Execute/Modify the code
+### 1. Go to the directory
+```bash
+cd go/to/the/desired/directory
+```
+### 2. Inside the Anaconda Prompt
+```bash
+cd go/to/the/desired/directory
+conda activate fourier-env
+```
+### 3. Run main.py
+#### In Anaconda Prompt
+```bash
+python main.py --image /images/alpha_h.jpg --n_terms 100 --n_frames 300
+```
+### 4. Save the .mp4 file
+#### In Anaconda Prompt
+```bash
+python main.py --image /images/alpha_h.jpg --n_terms 100 --n_frames 300 --save output.mp4
+```
 
